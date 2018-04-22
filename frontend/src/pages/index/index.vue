@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="index">
     <index-header></index-header>
     <index-swiper></index-swiper>
   </div>
@@ -14,10 +14,10 @@ export default {
     IndexHeader,
     IndexSwiper
   }
-
 }
 </script>
 
 <style lang="stylus" scoped>
-
+  .index
+    min-width 6rem
 </style>
