@@ -21,6 +21,7 @@ export default {
   background #42b983
   align-items center
   .header-logo
+    padding-left .2rem
     float left
     background red
   .header-info
