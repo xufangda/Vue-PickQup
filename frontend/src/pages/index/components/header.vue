@@ -18,6 +18,7 @@ export default {
 .header
   height 1rem
   line-height 1rem
+  padding 0 .2rem
   background #42b983
   align-items center
   .header-logo
