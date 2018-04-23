@@ -20,4 +20,5 @@ export default {
 <style lang="stylus" scoped>
   .index
     min-width 6rem
+    font-family  "BWHaasHead-95Black","PingFang-SC", "Hiragino Sans GB", "微软雅黑", "Helvetica Neue","Helvetica","Arial","sans-serif"
 </style>
