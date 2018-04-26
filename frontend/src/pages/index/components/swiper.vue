@@ -2,7 +2,7 @@
   <div class="swiper">
     <swiper :options="this.swiperOption">
       <!-- slides -->
-      <swiper-slide>
+      <swiper-slide class="s-wrapper">
         <img
           class="s-img"
           src="http://img1.qunarzz.com/piao/fusion/1803/5c/969bfa7af00a2702.jpg_640x200_e1b76963.jpg" alt=""
@@ -41,6 +41,8 @@ export default {
 <style lang="stylus" scoped>
 
   .swiper
+    width 100%
+    .s-wrapper
     width 100%
     height 0
     padding-bottom 31%
