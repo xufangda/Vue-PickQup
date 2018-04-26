@@ -1,12 +1,7 @@
 <template>
   <div id="app" class="app">
     <div class="wrapper">
-      <transition
-      :enter-active-class="transitionIn"
-      :leave-active-class="transitionOut"
-      >
-        <router-view class="anchored"/>
-      </transition>
+      <router-view class="anchored"/>
     </div>
   </div>
 </template>
@@ -50,18 +45,10 @@ export default {
     text-align center
     background #eee
     width 100%
-    display flex
-    justify-content center
     .wrapper
-      flex 1
-      position relative
+      display inline-block
+      background #ffffff
       width 100%
       max-width 12rem
       min-width 6rem
-      background red
-      .anchored
-        position absolute
-        width 100%
-        height 100%
-        background black
 </style>
