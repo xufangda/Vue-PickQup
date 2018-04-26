@@ -1,13 +1,13 @@
 <template>
   <div class="index">
-    <index-header></index-header>
-    <index-swiper></index-swiper>
-    <index-form></index-form>
+      <index-header></index-header>
+      <index-swiper></index-swiper>
+      <index-form></index-form>
   </div>
 </template>
 
 <script>
-import IndexHeader from './components/header'
+import IndexHeader from '../components/header'
 import IndexSwiper from './components/swiper'
 import IndexForm from './components/form'
 export default {
@@ -21,6 +21,5 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .index
-    min-width 6rem
+
 </style>

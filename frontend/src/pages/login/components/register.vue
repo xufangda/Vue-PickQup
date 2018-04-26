@@ -1,9 +1,6 @@
 <template>
   <div class="form">
-    <div class="form-item">
-      <label class="item-label ">预计日期</label>
-        <date-picker class="item-input" :value="date"></date-picker>
-    </div>
+    <form action>
     <div class="form-item">
       <label class="item-label">落地机场</label>
       <input class="item-input" placeholder="伦敦希斯罗" type="text">
@@ -15,12 +12,12 @@
     <div class="form-item">
       <button class="item-btn">查 询</button>
     </div>
+    </form>
 
   </div>
 </template>
 
 <script>
-import DatePicker from 'vuejs-datepicker'
 
 export default {
   name: 'form',
@@ -28,9 +25,6 @@ export default {
     return {
       date: new Date()
     }
-  },
-  components: {
-    DatePicker
   }
 }
 </script>
