@@ -51,4 +51,5 @@ export default {
       width 100%
       max-width 12rem
       min-width 6rem
+      text-align left
 </style>

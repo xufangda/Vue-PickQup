@@ -1,16 +1,16 @@
 <template>
   <div class="form">
-    <form action>
+    <form action='/api/login'>
     <div class="form-item">
-      <label class="item-label">落地机场</label>
-      <input class="item-input" placeholder="伦敦希斯罗" type="text">
+      <label class="item-label">用户名</label>
+      <input type="username" class="item-input" placeholder="邮箱/用户名" >
     </div>
     <div class="form-item">
-      <label class="item-label">目的地</label>
-      <input class="item-input" placeholder="伦敦 / 雷丁 / 巴斯" type="text">
+      <label class="item-label">密  码</label>
+      <input type="password" class="item-input" placeholder="请输入密码" >
     </div>
     <div class="form-item">
-      <button class="item-btn">查 询</button>
+      <button type="submit" class="item-btn">登 录</button>
     </div>
     </form>
 
